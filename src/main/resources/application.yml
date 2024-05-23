@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ai-demo
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        enabled: true
+        options:
+          model: 'qwen:7b'
+          temperature: 0.1
+        model: 'qwen:7b'
+server:
+  port: 9093
